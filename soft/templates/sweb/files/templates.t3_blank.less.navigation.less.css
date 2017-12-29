@@ -1,0 +1,148 @@
+.t3-mainnav .navbar {
+  color: #666;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.t3-mainnav .navbar-inner {
+  min-height: 40px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.t3-mainnav .navbar .nav {
+  margin: 0;
+}
+.t3-mainnav .navbar .nav > li > a {
+  border-top: 0;
+  padding: 10px 20px;
+  text-shadow: none;
+  
+  color: #fff;
+}
+.t3-mainnav .navbar .nav > li > .separator,
+.t3-mainnav .navbar .nav > li > span {
+  padding: 10px 20px;
+  display: inline-block;
+}
+.t3-mainnav .navbar .nav > li > a:focus,
+.t3-mainnav .navbar .nav > li > a:hover {
+  text-shadow: none;
+  outline: none;
+  
+  background-color: inherit;
+  color: #f7f6e0;
+}
+.t3-mainnav .navbar .nav > .active > a,
+.t3-mainnav .navbar .nav > .active > a:hover,
+.t3-mainnav .navbar .nav > .active > a:focus {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  background-color: inherit;
+  
+  color: #e28daa;
+}
+.t3-mainnav .navbar .btn-navbar {
+  float: left;
+  padding: 5px 10px;
+  margin: 4px 20px 4px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #e8e8e8;
+  background-image: -moz-linear-gradient(top,#f2f2f2,#d9d9d9);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#d9d9d9));
+  background-image: -webkit-linear-gradient(top,#f2f2f2,#d9d9d9);
+  background-image: -o-linear-gradient(top,#f2f2f2,#d9d9d9);
+  background-image: linear-gradient(to bottom,#f2f2f2,#d9d9d9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ffd8d8d8', GradientType=0);
+  border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  
+  *background-color: #d9d9d9;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+}
+.t3-mainnav .navbar .btn-navbar:hover,
+.t3-mainnav .navbar .btn-navbar:focus,
+.t3-mainnav .navbar .btn-navbar:active,
+.t3-mainnav .navbar .btn-navbar.active,
+.t3-mainnav .navbar .btn-navbar.disabled,
+.t3-mainnav .navbar .btn-navbar[disabled] {
+  color: #fff;
+  background-color: #d9d9d9;
+  *background-color: #cccccc;
+}
+.t3-mainnav .navbar .btn-navbar:active,
+.t3-mainnav .navbar .btn-navbar.active {
+  background-color: #bfbfbf \9;
+}
+.t3-mainnav .navbar .btn-navbar [class^="icon-"],
+.t3-mainnav .navbar .btn-navbar [class^=" icon-"] {
+  color: #666;
+  text-shadow: none;
+}
+.t3-mainnav .dropdown .caret {
+  margin-left: 5px;
+}
+.t3-mainnav .dropdown-menu {
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.t3-mainnav .dropdown-menu li > a {
+  border-top: 1px solid #eee;
+  padding: 5px 20px;
+  text-shadow: none;
+  
+  background-color: #fff;
+}
+.t3-mainnav .dropdown-menu li:first-child > a {
+  border-top: 0;
+}
+.t3-mainnav .navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+.t3-mainnav .navbar .nav > li > .dropdown-menu:after {
+  display: none;
+}
+.t3-mainnav .dropdown-submenu > .dropdown-menu {
+  margin-top: 0;
+}
+.t3-mainnav .dropdown-menu li > a:hover,
+.t3-mainnav .dropdown-menu li > a:focus,
+.t3-mainnav .dropdown-submenu:hover > a {
+  color: #7b436c;
+  background-color: #fff;
+}
+.t3-mainnav .dropdown-menu .active > a,
+.t3-mainnav .dropdown-menu .active > a:hover {
+  background-color: #fff;
+}
+.t3-mainnav .dropdown-menu .disabled > a,
+.t3-mainnav .dropdown-menu .disabled > a:hover {
+  color: #999;
+}
+.t3-mainnav .dropdown-menu .disabled > a:hover {
+  background-color: transparent;
+}
+.t3-mainnav .nav li.dropdown.open > .dropdown-toggle {
+  background-color: inherit;
+  color: #f7f6e0;
+}
+.t3-mainnav .nav li.dropdown.active > .dropdown-toggle,
+.t3-mainnav .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: inherit;
+  color: #f7f6e0;
+}

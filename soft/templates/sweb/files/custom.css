@@ -1,0 +1,588 @@
+/* .languageswitcherload {
+   margin-right: -40px;
+}*/
+.item_fields li {
+  line-height : 0em;
+}
+
+.btn, .button, button {
+   text-shadow: none;
+   border: none;
+   color: #fdd5e3;/*创建按钮颜色效果*/
+}
+form#uploadForm {
+    overflow: hidden;
+}
+
+.techerinformation-edit textarea {
+    width: 90%;
+}
+
+.table-bordered{
+    border-right: 0;
+}
+
+.item_fields td {
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+tbody tr:last-child {
+   border-bottom: 1px solid #ddd;
+}
+
+.attachmentsList table tr:last-child {
+    border: none;
+}
+
+td.at_filename {
+    padding-left: 2em;
+}
+
+td.listinfo {
+    line-height: 1.7em;
+    padding-left: 1.5em;
+}
+
+table#techerinformationList {
+    margin-top: 20px;
+}
+
+pre {
+     background-color: inherit;
+     border: none;
+     font: inherit;
+     line-height: inherit;
+}
+
+img.teacherImg {
+    width: 160px;
+}
+img.pic{
+   width:100%;//解决首页图片在手机端未铺满屏幕的问题
+}
+img.pic.pic-space{
+  padding:0 0 10px 0;
+}
+
+.article-content p {
+   text-indent: 2em;
+}
+
+.categories-module li, ul.categories-module li, .category-module li, ul.category-module li {
+    padding: 0 0;
+    border-top: none;
+}
+
+
+section.article-content.clearfix {
+    text-align: justify;
+    line-height: 1.7em;
+    font-size : 1.1em;
+
+}
+
+.article-aside {
+    border-bottom: 1px solid #eee;
+}
+
+.t3-megamenu .t3-module ul li a:hover, .t3-megamenu .t3-module ul li a:focus, .t3-megamenu .t3-module ul li a:active, .t3-megamenu .t3-module .nav li a:hover, .t3-megamenu .t3-module .nav li a:focus, .t3-megamenu .t3-module .nav li a:active {
+    color: #7b436c;
+}
+
+
+.copyright a {
+    color: rgba(129, 133, 136, 0.88);
+}
+.copyright p {
+   color: rgba(129, 133, 136, 0.88);
+}
+
+.logo img {
+    max-height: 90px;
+}
+
+a {
+    color: #84355f;
+}
+.jn-intro{
+    text-align: justify;
+}
+
+.jn-list strong {
+    font-weight: normal;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: #b2708c;
+    border-bottom-color: #b2708c;
+}
+
+
+.copyright p {
+    margin-bottom: 0;
+}
+
+.t3-copyright {
+    padding-bottom: 30px;
+}
+
+h2.sprocket-mosaic-title {
+    font-size: 16px;
+}
+
+.icon-foursquare {
+  color: #f9d7e5;
+  font-size: 10px;
+}
+
+.cprc {
+    margin-bottom: 10px;
+}
+
+header#t3-header {
+   /* padding-top: 55px;
+    padding-bottom: 55px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*.sprocket-mosaic {
+    width: 90%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.article-title, .article-header h1 {
+    font-size: 21px;
+    text-align: center;
+}
+
+.article-aside dl {
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-title a {
+    color: #415860;
+}
+
+.label-info, .badge-info {
+    background-color: inherit;
+}
+.badge {
+    color: #666;
+    text-shadow: none;
+}
+table.category a {
+    color: #000;
+}
+table.category a:hover {
+    color: #9c5975;
+}
+.table-bordered td {
+    border-left:none;
+    vertical-align:middle;
+}
+
+
+/*shiziduiwu s*/
+.junewsultra .jn-head {
+    padding-bottom: 7px;
+}
+
+.breadcrumb {
+    padding-left: 60px;
+}
+
+.t3-sidebar .leftmenu {
+    margin: 5px;
+}
+
+.leftmenu h3 {
+    margin: 10px 0 14px 15px;
+    padding-top: 7px;
+    /*border-top: 3px solid #b2708c;*/
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.leftmenu ul {
+list-style-type: none;
+}
+
+.leftmenu .module-title {
+     border-bottom:none;
+}
+
+.leftmenu li:last-child a {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*.leftmenu li>div {*/
+.leftmenu li a {
+    /*line-height: 30px;*/
+    /*padding: 0;*/
+/*  background: url(/images/arrow1.png) 92% 30% no-repeat #f5f5f5 !important;
+    border-color: #fff;
+    border-width: 1px 0px 0px 1px;
+    border-style: dotted; */
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    position: relative;
+    padding: 10px 15px 10px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-left: 20px;
+}
+/*.leftmenu li>div:before {*/
+ .leftmenu li a:before {
+    content: "\f105  ";
+    font-size: 16px;
+/*    font-weight: 700; */
+    color: #b2708c;
+}
+
+
+.leftmenu li a {
+/*    padding: 7px 20px;
+    font-size: 13px;
+    display: block; */
+    color: #66615A;
+    font-weight: 700;
+}
+.leftmenu li a:hover {
+    color: #9c5975;
+}
+
+.leftmenu .nav > li > a:hover {
+    background-color: inherit;
+}
+
+/*.leftmenu li:hover {
+    /*line-height: 30px;*/
+    background-color: #f5f5f5;
+}*/
+
+.leftmenu {
+    margin: 0;
+ /*    float: left; */
+    /*background-color: #F5F5F5;*/
+}
+
+table#techerinfo2List {
+    width: 90%;
+}
+#techerinfo2List td{
+   border-top: none;
+}
+
+#techerinfo2List img{
+    width: 120px;
+    height: 150px;
+}
+
+.item_fields th {
+    background: rgb(249, 249, 249);
+    color:black;
+}
+
+textarea#jform_introduction {
+    min-height: 500px;
+}
+
+.bgColor {
+width: 440px;
+height:100px;
+background-color: #F9D735;
+}
+.bgColor label{
+font-weight: bold;
+color: #A0A0A0;
+}
+#targetLayer{
+float:left;
+width:100px;
+height:100px;
+text-align:center;
+line-height:100px;
+font-weight: bold;
+color: #C0C0C0;
+background-color: #F0E8E0;
+overflow:auto;
+margin-left: 50px;
+margin-right: 50px;
+}
+#uploadFormLayer{
+padding: 10px;
+}
+.btnSubmit {
+background-color: #3FA849;
+padding:4px;
+border: #3FA849 1px solid;
+color: #FFFFFF;
+}
+.inputFile {
+padding: 3px;
+background-color: #FFFFFF;
+}
+
+form#form-techerinfo2 {
+    margin-top: 50px;
+}
+
+.languageswitcherload {
+    padding-top: 10px;
+}
+
+.t3-module ul, .t3-module ol {
+    margin-left: 0px;
+}
+
+sprocket-quotes-container {
+    margin-right: 0px;
+}
+
+.sprocket-quotes-image {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i.icon-caret-right{
+    color:  #CCC;
+}
+.headfirst {
+/*background-color: rgb(245, 245, 245);}
+div#Mod104 {
+    margin-top: -140px;
+    margin-bottom:-70px;
+*/
+background-image: -webkit-linear-gradient(left, #551e43 0%, #9c5b79 100%);
+    background-image: -o-linear-gradient(left, #551e43 0%, #9c5b79 100%);
+    background-image: linear-gradient(to right, #551e43 0%, #9c5b79 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF551E43', endColorstr='#FF9C5B79', GradientType=1);
+}
+
+.headsecond {
+/*    border-bottom: 3px solid #c3c0c2;*/
+    background: url(/images/bg-gate.png),-webkit-linear-gradient(left, #36162d 0%, #bc7793 100%);
+    background: url(/images/bg-gate.png),-o-linear-gradient(left, #36162d 0%, #bc7793 100%);
+    background: url(/images/bg-gate.png),linear-gradient(to right, #36162d 0%, #bc7793 100%);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF36162D', endColorstr='#FFBC7793', GradientType=1);
+    /*background-size: 100% 100%;*/
+   /*background-repeat:no-repeat;
+   background-size:contain;
+   background-position:center;*/
+   background-position:right;
+   
+}
+
+.headfirst .navbar .nav > li > a {
+    color: #d2cdcf;  /*导航栏字体颜色*/
+}
+.t3-megamenu .t3-module .nav li a{
+    color: black;
+}
+
+.tel_email{
+   padding-top: 10px;
+   text-align:right; 
+   color: #d2cdcf;
+}
+
+div.mod-languages a {
+    color: #d2cdcf;
+}
+
+.jn-list{
+	border-bottom:thin dashed #CCC;
+}
+.list-time{
+	float: right;
+}
+
+ul#set-rl_tabs-1 {
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rl_tabs.outline_content>.tab-content {
+    border: none;
+}
+
+.developby {
+    display:none;
+}
+
+.module-title {
+   /* border-top: 2px solid #F36770;*/
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*.junewsultra, .junewsultra .jn, .junewsultra .jn-head {
+    background-color: #f2f2f2;
+}*/
+
+.t3-spotlight-1 .span4{
+	border-top: 2px solid #F36770;
+}
+
+.t3-spotlight-1 .span4.item-first{
+	border-top: 2px solid #79BF22;
+}
+
+.t3-spotlight-1 .span4.item-last{
+	border-top: 2px solid #40B1E3;
+}
+
+.t3-spotlight-3 .span4{
+	border-top: 2px solid #F36770;
+}
+
+.t3-spotlight-3 .span4.item-first{
+	border-top: 2px solid #79BF22;
+}
+
+.t3-spotlight-3 .span4.item-last{
+	border-top: 0px solid #40B1E3;
+    /*padding: 0 0 0 0;   */
+}
+
+.t3-spotlight-3 .item-last .module-inner{
+    padding: 0 0 0 0; 
+}
+
+div#Mod126 , div#Mod129 {
+    background-color: #f8f8f8;
+}
+#Mod126 ul , #Mod129 ul {
+    margin-bottom : 0px;
+}
+
+#Mod126 .module-inner , #Mod129 .module-inner {
+    padding-bottom : 0px;
+}
+.t3-footnav .module-title {
+	color: #DDD;
+    border-bottom: 1px solid #354048;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight:normal;
+}
+
+div#main-content-inner-anicircle125 {
+    background-color: #F5F5F5;
+}
+
+.t3-spotlight-1 .module-title{
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
+
+.t3-spotlight-3 .module-title{
+	padding-top: 10px;
+	padding-bottom: 7px;
+}
+
+/*.t3-spotlight-1 .module-inner li{
+	padding-left: 5px;
+	padding-right: 5px;
+}*/
+
+.t3-spotlight-3 .module-inner li{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.t3-spotlight-1 a{
+	color:#000;
+}
+
+.t3-spotlight-3 a{
+	color:#000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+section#proj {
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+.t3-footer{
+	margin-top: 50px;
+}
+
+.t3-spotlight-1 ul{
+    margin-left: 0px;
+}
+
+.t3-spotlight-3 ul{
+    margin-left: 0px;
+}
+
+.t3-spotlight.t3-spotlight-2.row {
+    margin-top: -30px;
+}
+div#main-content-anicircle {
+    padding-top: 50px;
+}
+.t3-sl{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+div#main-content-inner-anicircle125 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+}
+
+.t3-spotlight.t3-spotlight-2.row {
+    margin-top: -100px;
+}
+
+.t3-spotlight.t3-spotlight-1.row {
+    margin-top: 40px;
+}
+
+.t3-footnav a{
+	color: rgba(129, 133, 136, 0.88);
+}
+
+.animation-menus-highlight ul {
+    margin-right: 40px;
+}
+
+.junewsultra .jn-list a, .junewsultra .jn-list a:link, .junewsultra .jn-list a:visited {
+    padding-left: 5px;
+}
+
+.junewsultra .jn a, .junewsultra .jn a:link, .junewsultra .jn a:visited {
+    padding-left: 0px;
+}
+
+.t3-spotlight-2{
+    width: 100%;
+} 
+
+.t3-spotlight-3 .module-inner{
+    padding: 5px 5px 5px 5px;
+}
+.t3-spotlight-1 .module-inner{
+    padding: 5px 5px 5px 5px;
+}
+
